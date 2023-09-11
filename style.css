@@ -1,0 +1,246 @@
+* {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+#days{
+    width: 100%;
+}
+#title {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+h1{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+}
+.lectie {
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    font-size: 16%;
+    position: relative;
+    display: flex;
+    border-bottom: 1px dashed rgb(204, 204, 204);
+}
+.lectie .pereche{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: black
+}
+.lectie .ora{
+    font-size: 11px;
+    position: absolute;
+    color:gray;
+    right: 20px;
+    top: 40px;
+}
+.lectie .profesor{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 70px;
+    color:purple;
+    left: 30px;
+}
+.lectie .cabinet{
+    font-size: 11px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    color:gray;
+}
+.numele {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    font-size: 16%;
+    position: relative;
+    display: flex;
+    align-items: center; 
+    border-top: 1px dashed purple;
+    border-bottom: 1px dashed purple;
+    padding: 20px;
+}
+.numele .data{
+    font-size: 28px;
+    font-weight: 700;
+    position:absolute;
+    left: 30px;
+    color:purple;
+}
+.numele .ziua{
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    color:gray;
+}
+#tuesday{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    bottom: 420px;
+    left: 600px;
+}
+#monday{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    top: 120px;
+    left: 100px;
+}
+#wendesday{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    left: 1100px;
+    bottom: 964px;
+}
+#Thursday{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    left: 320px;
+    bottom: 900px;
+}
+#Friday{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    left: 880px;
+    bottom: 1440px;
+}
+.saptamini{
+    width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+.saptamini a{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    position: relative;
+}
+li, button{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: purple;
+    padding: 30px 10%;
+    border: 1px solid rgb(0, 0, 0);
+}
+.Nav__links a{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.Nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.Nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.Nav__links li a:hover{
+    color: blue;
+}
+.Nav__links{
+    list-style: none;
+}
+.name{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: auto;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    left: 790px;
+    top: 150px;
+}
+.obiect{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    font-size: 16%;
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.obiect .obiectnume{
+    padding: 10px;
+    border-right: 1px solid purple;
+    font-weight: 400;
+}
+.obiect .obiectnote{
+    padding: 20px;
+    border-right: 1px solid purple;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#note{
+    width: 100%;
+    height: 100%;
+
+}
+#zilele1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+
+}
+#zilele2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.numesigrupa{
+    padding: 30px;
+    border-bottom: 1px dashed gray;
+}
+.numesigrupa b{
+    font-size: 30px;
+    margin-left: 640px;
+}
+.semestru{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.semestru a{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
